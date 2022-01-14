@@ -1,6 +1,4 @@
 import MovieCard from "components/MovieCard";
-import MovieScore from "components/MovieScore";
-import MoviesStars from "components/MovieStars";
 import Pagination from "components/Pagination";
 
 function Listing() {
@@ -29,9 +27,6 @@ function Listing() {
                     </div>
                 </div>
             </div>
-            {/* <MoviesStars /> */}
-            {/* <MovieScore /> */}
-
         </>
     )
 }
